@@ -1,0 +1,17 @@
+#tv-shows{
+    overflow: hidden;
+}
+.tv-shows-image img{
+    width: 220px;
+    height: 330px;
+}
+
+.tv-shows-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tv-shows-image img:first-child, .tv-shows-image img:last-child{
+    width: 90px;
+}
+

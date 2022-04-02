@@ -1,0 +1,94 @@
+#hero {
+  height: 1000px;
+  padding: 20px;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.hero-logo {
+  width: 300px;
+  height: 20px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #000000;
+
+  mix-blend-mode: normal;
+  opacity: 0.3;
+}
+.hero-logo-item {
+  display: flex;
+}
+
+.hero-logo-item img {
+  padding-right: 25px;
+}
+
+.hero-content h3 {
+  font-weight: 900;
+}
+
+.hero-content p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+
+  color: #000000;
+}
+
+.input-group-1 {
+  width: 400px;
+}
+
+.hero-phone {
+  margin: 100px 0;
+}
+.header-rectangle {
+  background: linear-gradient(135deg, #9c09db 0%, #1c0fd7 100%);
+  mix-blend-mode: normal;
+  opacity: 0.9;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(27.1828px);
+
+  border-radius: 40px;
+  transform: rotate(45deg);
+
+  z-index: -1;
+}
+.header-rectangle-2 {
+  background: linear-gradient(135deg, #f2c314 0%, #fc3832 100%);
+  mix-blend-mode: normal;
+  opacity: 0.9;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(27.1828px);
+
+  border-radius: 40px;
+  transform: rotate(65deg);
+  z-index: -2;
+}
+.footer-rectangle {
+  background: linear-gradient(135deg, #32fbfc 0%, #3214f2 100%);
+  mix-blend-mode: normal;
+  opacity: 0.9;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(27.1828px);
+
+  border-radius: 30px;
+  transform: rotate(45deg);
+}
+.header-rectangle,.header-rectangle-2{
+  position: absolute;
+  top: 500px;
+  left: 320px;
+}
+
+.footer-rectangle{
+  position: absolute;
+  top: 870px;
+  left: -80px;
+  z-index: -1;
+}

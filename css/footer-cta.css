@@ -1,0 +1,51 @@
+.cta-dis p:first-child {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 23px;
+
+  text-align: center;
+
+  color: #000000;
+
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.cta-dis h3 {
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 63px;
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.cta-dis p:nth-child(3) {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 32px;
+
+  text-align: center;
+
+  color: #000000;
+
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.cta-info {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+
+  color: #000000;
+
+  mix-blend-mode: normal;
+  opacity: 0.3;
+}
+
+.cta-social span {
+  padding: 5px;
+}

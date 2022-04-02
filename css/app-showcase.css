@@ -1,0 +1,58 @@
+
+#app-showcase{
+  overflow: hidden;
+  height: 850px;
+}
+
+.row {
+  position: relative;
+}
+
+.app-showcase-dis h5 {
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 50px;
+
+  color: #000000;
+}
+
+.app-showcase-dis p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+
+  color: #000000;
+
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.app-showcase-content {
+  width: 500px;
+}
+
+.app-showcase-ele-item {
+  display: flex;
+  color: #540cfa;
+  padding-top: 40px;
+}
+
+.app-showcase-ele .app-showcase-ele-item p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #000000;
+}
+
+.app-showcase-phone {
+  width: 300px;
+  height: 600px;
+  z-index: 5;
+}
+
+.app-showcase-web {
+  width: 820px;
+  height: 511px;
+  position: absolute;
+}
